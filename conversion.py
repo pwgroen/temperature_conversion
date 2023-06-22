@@ -1,4 +1,11 @@
 def celsius_to_fahrenheit(celsius):
+    """
+    Args:
+         celsius (float): temperature in degrees celsius
+    
+    Returns:
+         float: temperature in degrees fahrenheit
+    """
     return celsius/5*9 + 32
 
 def celsius_to_kelvin(celsius):
